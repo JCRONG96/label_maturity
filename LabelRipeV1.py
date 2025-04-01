@@ -49,7 +49,7 @@ def compute_ripeness_level(h):
         return 3
     elif 20 <= h < 35:
         return 2
-    elif 35 <= h <= 100:
+    elif 35 <= h <= 90:
         return 1
     else:
         return 0  # If h doesn't fall into any of these categories
@@ -69,7 +69,7 @@ def compute_weight_from_hue(h):
     elif 20 <= h < 35:
         # Map h from 20-35 to weight from 0.4 to 0.2
         return 0.4 - ((h - 20) / (35 - 20)) * (0.4 - 0.2)
-    elif 35 <= h <= 100:
+    elif 35 <= h <= 90:
         return 0.0
     else:
         return 0.0  # Default weight
