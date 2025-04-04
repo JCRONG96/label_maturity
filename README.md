@@ -4,6 +4,10 @@ This project is developed by Jiacheng Rong et al. from China Agricultural Univer
 
 This project provides a tool for annotating tomato ripeness using a simple graphical user interface (GUI) built with OpenCV. The tool allows the user to select regions of interest (ROIs) in images, compute hue-based ripeness levels, and record occlusion status.
 
+
+
+<img src="C:\Users\rongj\Downloads\label_maturity-main\label_maturity-main\2025-04-04T06_13_45.812Z-58434.gif" style="zoom:33%;" />
+
 ## Features
 - Annotate images for tomato ripeness estimation by selecting regions of interest.
 - Automatically compute ripeness levels based on hue values.
